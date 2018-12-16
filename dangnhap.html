@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <label for="">Tai khoan</label>
+                        <input type="text" class="form-control" id="txtTaiKhoan">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mat khau</label>
+                        <input type="password" class="form-control" id="txtMatKhau">
+                    </div>
+                    <div class="form-group  text-center">
+                        <button type="button" id="btnDangNhap" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./services/nguoiDung.js"></script>
+    <script src="./js/dangnhap.js"></script>
+</body>
+</html>
